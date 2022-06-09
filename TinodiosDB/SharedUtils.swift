@@ -17,7 +17,8 @@ public class SharedUtils {
     static public let kTinodePrefTypingNotifications = "tinodePrefTypingNoficications"
 
     // App Tinode api key.
-    private static let kApiKey = "AQEAAAABAAD_rAp4DJh05a1HAwFT3A6K"
+    //private static let kApiKey = "AQEAAAABAAD_rAp4DJh05a1HAwFT3A6K"
+    private static let kApiKey = "AQAAAAABAACvHfpg88Ix6osHgaX8fyUC"
 
     static public let kAppDefaults = UserDefaults(suiteName: BaseDb.kAppGroupId)!
     static let kAppKeychain = KeychainWrapper(serviceName: "co.tinode.tinodios", accessGroup: BaseDb.kAppGroupId)

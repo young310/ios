@@ -14,7 +14,7 @@
 			<key>Key</key>
 			<string>host_name_preference</string>
 			<key>DefaultValue</key>
-			<string>127.0.0.1:6060</string>
+			<string>meet.oncall.com.tw:6060</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>KeyboardType</key>

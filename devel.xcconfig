@@ -6,9 +6,9 @@
 #include "Pods/Target Support Files/Pods-Tinodios/Pods-Tinodios.debug.xcconfig"
 
 // Server URL
-HOST_NAME = 127.0.0.1:6060
+HOST_NAME = meet.oncall.com.tw:6060
 // Use TLS (https, wss)
-USE_TLS = NO
+USE_TLS = YES
 
 // App Settings
-APP_NAME = Tinode (test)
+APP_NAME = OnCall (test)
