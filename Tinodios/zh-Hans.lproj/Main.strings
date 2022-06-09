@@ -98,7 +98,7 @@
 "bEA-WA-uoH.text" = "上次登录";
 
 /* Class = "UILabel"; text = "Tinode"; ObjectID = "BS4-zj-4bf"; */
-"BS4-zj-4bf.text" = "Tinode";
+"BS4-zj-4bf.text" = "OnCall";
 
 /* Class = "UITableViewSection"; headerTitle = "Contacts"; ObjectID = "bvE-OV-sy1"; */
 "bvE-OV-sy1.headerTitle" = "联系人";
@@ -326,7 +326,7 @@
 "raq-d6-2nI.headerTitle" = "动作";
 
 /* Class = "UINavigationItem"; title = "Tinode"; ObjectID = "Rgo-YL-uPZ"; */
-"Rgo-YL-uPZ.title" = "Tinode";
+"Rgo-YL-uPZ.title" = "OnCall";
 
 /* Class = "UIBarButtonItem"; title = "Profile"; ObjectID = "rlG-v4-QUc"; */
 "rlG-v4-QUc.title" = "个人中心";

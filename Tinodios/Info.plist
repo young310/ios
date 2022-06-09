@@ -9,13 +9,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Tinode</string>
+	<string>OnCall</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>$(APP_NAME)</string>
 	<key>CFBundlePackageType</key>
@@ -31,15 +29,15 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Tinode takes photos with the camera to use as avatar or to send them to your contacts</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Tinode uses microphone to record audio messages you send to your contacts</string>
+	<string>${PRODUCT_NAME} takes photos with the camera to use as avatar or to send them to your contacts</string>
 	<key>NSContactsUsageDescription</key>
-	<string>Tinode sends only emails and phone numbers to the Tinode server to help you connect with other users</string>
+	<string>${PRODUCT_NAME} sends only emails and phone numbers to the ${PRODUCT_NAME}  server to help you connect with other users</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>${PRODUCT_NAME} uses microphone to record audio messages you send to your contacts</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Images and pictures from Tinode can be saved in the photo library</string>
+	<string>Images and pictures from ${PRODUCT_NAME}  can be saved in the photo library</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Tinode needs access to your photos to let you you send them to your contacts</string>
+	<string>${PRODUCT_NAME} needs access to your photos to let you you send them to your contacts</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>

@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0A0380D321B3CC8100A3FA0E"
-               BuildableName = "Tinodios.app"
-               BlueprintName = "Tinodios"
+               BuildableName = "OnCall.app"
+               BlueprintName = "OnCall"
                ReferencedContainer = "container:Tinodios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A0380D321B3CC8100A3FA0E"
-            BuildableName = "Tinodios.app"
-            BlueprintName = "Tinodios"
+            BuildableName = "OnCall.app"
+            BlueprintName = "OnCall"
             ReferencedContainer = "container:Tinodios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -69,8 +69,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A0380D321B3CC8100A3FA0E"
-            BuildableName = "Tinodios.app"
-            BlueprintName = "Tinodios"
+            BuildableName = "OnCall.app"
+            BlueprintName = "OnCall"
             ReferencedContainer = "container:Tinodios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -60,7 +60,7 @@
 "AoI-xo-VbS.text" = "Muted";
 
 /* Class = "UILabel"; text = "Tinode"; ObjectID = "BS4-zj-4bf"; */
-"BS4-zj-4bf.text" = "Tinode";
+"BS4-zj-4bf.text" = "OnCall";
 
 /* Class = "UILabel"; text = "image/jpeg"; ObjectID = "C6Z-tO-4g8"; */
 "C6Z-tO-4g8.text" = "image/jpeg";
@@ -129,7 +129,7 @@
 "RA0-dx-dSp.text" = "Topic or user ID";
 
 /* Class = "UINavigationItem"; title = "Tinode"; ObjectID = "Rgo-YL-uPZ"; */
-"Rgo-YL-uPZ.title" = "Tinode";
+"Rgo-YL-uPZ.title" = "OnCall";
 
 /* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "Rv6-qQ-FqW"; */
 "Rv6-qQ-FqW.normalTitle" = "Sign up";
