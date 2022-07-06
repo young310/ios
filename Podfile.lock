@@ -100,6 +100,21 @@ PODS:
   - Kingfisher (5.15.8):
     - Kingfisher/Core (= 5.15.8)
   - Kingfisher/Core (5.15.8)
+  - "linphone-sdk (5.2.0-alpha.221+2b43eabd)":
+    - "linphone-sdk/all-frameworks (= 5.2.0-alpha.221+2b43eabd)"
+    - "linphone-sdk/app-extension (= 5.2.0-alpha.221+2b43eabd)"
+    - "linphone-sdk/app-extension-swift (= 5.2.0-alpha.221+2b43eabd)"
+    - "linphone-sdk/basic-frameworks (= 5.2.0-alpha.221+2b43eabd)"
+    - "linphone-sdk/swift (= 5.2.0-alpha.221+2b43eabd)"
+  - "linphone-sdk/all-frameworks (5.2.0-alpha.221+2b43eabd)"
+  - "linphone-sdk/app-extension (5.2.0-alpha.221+2b43eabd)"
+  - "linphone-sdk/app-extension-swift (5.2.0-alpha.221+2b43eabd)":
+    - linphone-sdk/app-extension
+  - "linphone-sdk/basic-frameworks (5.2.0-alpha.221+2b43eabd)":
+    - linphone-sdk/app-extension
+  - "linphone-sdk/swift (5.2.0-alpha.221+2b43eabd)":
+    - linphone-sdk/app-extension-swift
+    - linphone-sdk/basic-frameworks
   - MobileVLCKit (3.4.1b9)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
@@ -125,12 +140,15 @@ DEPENDENCIES:
   - FirebaseCrashlytics
   - FirebaseMessaging
   - Kingfisher (~> 5.0)
+  - linphone-sdk (~> 5.2.0-alpha)
   - MobileVLCKit (~> 3.4.1b9)
   - PhoneNumberKit (~> 3.3)
   - SQLite.swift (~> 0.13)
   - SwiftKeychainWrapper (~> 3.2)
 
 SPEC REPOS:
+  https://gitlab.linphone.org/BC/public/podspec.git:
+    - linphone-sdk
   trunk:
     - Firebase
     - FirebaseAnalytics
@@ -162,6 +180,7 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
   GoogleUtilities: 684ee790a24f73ebb2d1d966e9711c203f2a4237
   Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  linphone-sdk: 3e5d5ed695a3d382994f92a92b5e7743fc97713c
   MobileVLCKit: 63fd88297505b97027f23842ae9df3a7bf17b31e
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PhoneNumberKit: 441e8b26ec88d598e3591de9061eff18f5dd12e8
@@ -169,6 +188,6 @@ SPEC CHECKSUMS:
   SQLite.swift: 903bfa3bc9ab06345fdfbb578e34f47cfcf417da
   SwiftKeychainWrapper: 6fc49fbf7d4a6b0772917acb0e53a1639f6078d6
 
-PODFILE CHECKSUM: 11c6be0f696f6223ca7f2e195144266d02d1784d
+PODFILE CHECKSUM: 057145ad3534adb6a44346cbef3ea96ddee4a27c
 
 COCOAPODS: 1.11.3

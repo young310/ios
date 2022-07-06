@@ -1,5 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '12.0'
+source "https://gitlab.linphone.org/BC/public/podspec.git"
+source "https://github.com/CocoaPods/Specs.git"
 
 # https://stackoverflow.com/a/58067562/6692196 !use_frameworks is no longer needed.
 # use_frameworks!
@@ -28,6 +30,7 @@ target 'TinodiosDB' do
 end
 
 target 'Tinodios' do
+    pod 'linphone-sdk' , '~>5.2.0-alpha'
     project 'Tinodios'
     db_pods
     pod 'Firebase'
